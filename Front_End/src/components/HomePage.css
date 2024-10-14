@@ -1,0 +1,17 @@
+/* HomePage Layout */
+.home-page {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 0px; /* Adjust this according to the sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Ensures the main content takes the remaining width */
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
